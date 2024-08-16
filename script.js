@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Teaching", "IQAC", "IEEE", "Accreditation Work", "Web development"],
+    strings: ["Academics(IIT)", "Teaching", "IQAC", "IEEE", "Accreditation Work"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
