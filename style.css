@@ -1682,4 +1682,69 @@ form .button-area {
   font-weight: bold;
   color: #009879;
 }
+.research{
+background:#f5f5ff;
+padding:60px 0;
+}
+
+.research .box-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+}
+
+.research .box{
+background:#ffffff;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+padding:25px;
+width:280px;
+text-align:center;
+transition:0.3s;
+}
+
+.research .box:hover{
+transform:translateY(-8px);
+}
+
+.research .box h3{
+font-size:20px;
+margin-bottom:10px;
+color:#2c2c54;
+}
+
+.research .box p{
+font-size:14px;
+color:#555;
+}
+.software{
+background:#ffffff;
+padding:60px 0;
+}
+
+.software .box-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+}
+
+.software .box{
+background:#f0f4ff;
+padding:15px 25px;
+border-radius:8px;
+font-size:16px;
+font-weight:500;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.software .box:hover{
+transform:translateY(-5px);
+background:#e0e7ff;
+}
 /* scroll top ends */
+
