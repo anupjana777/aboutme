@@ -1746,5 +1746,80 @@ transition:0.3s;
 transform:translateY(-5px);
 background:#e0e7ff;
 }
+/* Research section */
+
+.research{
+background:#ffffff;
+padding:50px 9%;
+}
+
+.research-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+margin-top:30px;
+}
+
+.research-card{
+background:#f5f5ff;
+padding:25px;
+border-radius:10px;
+width:260px;
+text-align:center;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.research-card:hover{
+transform:translateY(-6px);
+}
+
+.research-card i{
+font-size:35px;
+color:#6c5ce7;
+margin-bottom:10px;
+}
+
+.research-card h3{
+font-size:18px;
+margin-bottom:8px;
+}
+
+.research-card p{
+font-size:14px;
+color:#555;
+}
+
+/* Software section */
+
+.software{
+background:#e5ecfb;
+padding:50px 9%;
+}
+
+.software-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+margin-top:30px;
+}
+
+.software-container span{
+background:white;
+padding:10px 20px;
+border-radius:6px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+font-size:15px;
+font-weight:500;
+transition:0.3s;
+}
+
+.software-container span:hover{
+background:#6c5ce7;
+color:white;
+}
 /* scroll top ends */
+
 
